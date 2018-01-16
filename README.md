@@ -40,10 +40,10 @@
 
 工作原理：
     在record中显示一个表格形式的模板页面，页面位于项目文件夹`/templates/record.tmpl`。
-    > 当出现一下情况时重定向到`localhost:8080/static/`：
+    当出现一下情况时重定向到`localhost:8080/static/`：
         1.若进入`localhost:8080/record`的方法为GET
         2.进入`localhost:8080/record`的方法为POST，但价格不是一个符合要求的数字（整数或两位以内小数）。
-    > 当进入`localhost:8080/record`的方法为POST，且价格合法，就将表单数据应用于模板页面显示。
+    当进入`localhost:8080/record`的方法为POST，且价格合法，就将表单数据应用于模板页面显示。
 
 4. 实现`NotImplemented`和`NotImplementedHandler`（模仿`NotFound`和`NotFoundHandler`）。
     访问`localhost:8080/api/unknown`，页面501 Not Implemented，终端显示
