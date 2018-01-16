@@ -13,9 +13,9 @@
     >  D:\workspace\gp\src\github.com\c153197984\ex-cloudgo-inout> go run main.go
     > [negroni] listening on :8080
 
-用浏览器进入`localhost:8080/static/`能看到到`assets/index.html`网页。
-用浏览器进入`localhost:8080/static/images/`会显示文件列表。
-用浏览器进入`localhost:8080/static/images/x.jpg`能看到具体图片。
+    用浏览器进入`localhost:8080/static/`能看到到`assets/index.html`网页。
+    用浏览器进入`localhost:8080/static/images/`会显示文件列表。
+    用浏览器进入`localhost:8080/static/images/x.jpg`能看到具体图片。
 
 2. 运行成功后命令行信息同上。
     javascript代码通过获取到Go返回的JSON对象来实现DOM对应元素的替换。
